@@ -1,0 +1,41 @@
+.close-btn{
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.close-btn:hover::before {
+    background: red;
+}
+
+.close-btn:hover::after {
+    background: red;
+}
+
+.close-btn::before, .close-btn::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: black;
+}
+
+.close-btn::before{
+    transform: rotate(45deg);
+}
+
+.close-btn::after{
+    transform: rotate(-45deg);
+}
+
+.message{
+    display: flex;
+    gap: 20px;
+    background: rgb(168, 44, 162);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: white;
+}
+

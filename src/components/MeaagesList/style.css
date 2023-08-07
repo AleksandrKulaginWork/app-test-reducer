@@ -1,0 +1,17 @@
+.container{
+    max-width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form{
+    align-self: center;
+}
+
+.messages-list{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: fixed;
+    bottom: 50px;
+    gap: 20px;
+    font-family: Roboto;
+}
+
+.textarea {
+    resize: none;
+    min-height: 40px;
+    outline: 0;
+    outline-offset: 0;
+    border-radius: 10px;
+    border-color: rgb(187, 187, 187);
+    padding: 7px;
+    font-size: 16px;
+    box-shadow: 0px 5px 18px 2px rgba(34, 60, 80, 0.2);
+}
+.textarea::placeholder {
+    font-family: Roboto;
+}
+
+.button {
+    align-self: end;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
